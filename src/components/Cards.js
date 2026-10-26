@@ -1,7 +1,6 @@
 import React from 'react'
 import CardItem from './CardItem'
 import "./Card.css"
-
 //todo deal with images better
 import image9 from "../../src/assets/images/links/github.png"
 import image10 from "../../src/assets/images/links/linked.png"
@@ -40,8 +39,9 @@ function Cards() {
                     <CardItem 
                     src={image11}
                     title="CV"
-                    info="last update: 04.2023"
-                    path="/CV"
+                    info="last update: 10.2026"
+                    path="CV_2026_DE.pdf"
+                    download="Maria_Shchurova_CV.pdf"
                     />
                     <CardItem 
                     src={gd_image}
